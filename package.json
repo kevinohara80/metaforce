@@ -1,0 +1,30 @@
+{
+  "name": "metaforce",
+  "version": "0.0.1",
+  "description": "metaforce is a metadata api tool for salesforce.com to make deploys a breeze",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevinohara80/metaforce.git"
+  },
+  "keywords": [
+    "salesforce",
+    "force.com",
+    "metadata",
+    "api",
+    "deployment",
+    "nforce"
+  ],
+  "author": "Kevin O'Hara",
+  "license": "MIT",
+  "dependencies": {
+    "nforce": "~0.2.2",
+    "optimist": "~0.3.5"
+  },
+  "devDependencies": {
+    "tap": "~0.3.2"
+  }
+}
